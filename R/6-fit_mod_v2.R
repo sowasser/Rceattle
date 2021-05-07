@@ -552,9 +552,6 @@ fit_mod <-
 
     # suppressWarnings(try(dyn.unload(TMB::dynlib(paste0(cpp_file)))))
     return(mod_objects)
-
-    # Free up memory
-    TMB::FreeADFun(obj)
   }
 
 
